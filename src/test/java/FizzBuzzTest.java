@@ -22,4 +22,19 @@ public class FizzBuzzTest {
     public void NumberTwoShouldReturnTwo(){
         assertEquals("2", exampleFizzBuzz.transformNumber(2));
     }
+
+    @Test
+    public void NumberThreeShouldReturnFizz(){
+        assertEquals("Fizz", exampleFizzBuzz.transformNumber(3));
+    }
+
+    @Test
+    public void NumberFiveShouldReturnBuzz(){
+        assertEquals("Buzz", exampleFizzBuzz.transformNumber(5));
+    }
+
+    @Test
+    public void NumberSixShouldReturnFizz(){
+        assertEquals("Fizz", exampleFizzBuzz.transformNumber(6));
+    }
 }

@@ -37,4 +37,14 @@ public class FizzBuzzTest {
     public void NumberSixShouldReturnFizz(){
         assertEquals("Fizz", exampleFizzBuzz.transformNumber(6));
     }
+
+    @Test
+    public void NumberTenShouldReturnBuzz(){
+        assertEquals("Buzz", exampleFizzBuzz.transformNumber(10));
+    }
+
+    @Test
+    public void Number15ShouldReturnFizzBuzz(){
+        assertEquals("FizzBuzz", exampleFizzBuzz.transformNumber(15));
+    }
 }
